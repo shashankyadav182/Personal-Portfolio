@@ -1,0 +1,40 @@
+:root{
+    --bs-mycolor: #85cb03;
+}
+.intake_under{
+    padding: 50px;
+}
+.home:hover{
+    background: #578600;
+    background-size: cover;
+    
+}
+.page:hover{
+    background-color: #578600;
+}
+.hotel:hover{
+    background-color: #578600;
+}
+.flights:hover{
+    background-color: #578600;
+}
+.car:hover{
+    background-color: #578600;
+}
+.package:hover{
+    background-color: #578600;
+}
+.cruises:hover{
+    background-color: #578600;
+}
+.tours:hover{
+    background-color: #578600;
+}
+@media only screen and (min-width:768px){
+    .herosection{
+    }
+    .thirddiv{
+        width: 200px;
+        height: 300px;
+    }
+}

@@ -1,0 +1,84 @@
+:root {
+    --bs-backcolor:#0A3B37;
+    --bs-textcolor: rgb(210, 180, 6);
+}
+*{
+    font-family: 'Dancing Script', cursive;
+}
+
+.bg-green {
+    background: var(--bs-backcolor);
+}
+
+.text-gold {
+    color: var(--bs-textcolor);
+}
+
+.navbar {
+    border: 1px solid goldenrod;
+}
+
+.navbar-toggler-icon {
+    color: white;
+    background-color: pink;
+}
+
+.hero_pic {
+    z-index: 999;
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+
+.hero_pic img {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.bridemades img {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.know img {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.video img {
+    background-color: #0A3B37;
+    padding: 30px;
+    border-radius: 100%;
+}
+.thankyou{
+    padding: 200px 0px;
+}
+
+
+
+
+@media only screen and ( min-width:768px) {
+    .video{
+        padding: 500px;
+    }
+    .harosection{
+        padding: 200px;
+    }
+    .harosection h1{
+        font-size: 100px;
+    }
+    .herosection{
+        padding: 200px;
+    }
+    .herosection h1{
+        font-size: 100px;
+    }
+    .heropicture img {
+        margin-top:100px;
+        margin-left: 200px;
+    }
+    .rowtext{
+        margin-top: 200px;
+    }
+    .thankyou{
+        padding: 200px;
+    }
+    .thankyou h1{
+        font-size: 200px;
+    }
+}

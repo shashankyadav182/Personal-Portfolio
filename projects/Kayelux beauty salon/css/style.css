@@ -1,0 +1,55 @@
+:root{
+    --bs-backcolor: #fff8f3;
+    --bs-orange:#ff4800;
+}
+.bg-pink{
+    background: var(--bs-backcolor);
+}
+.herosection div{
+    padding:10% 10%;
+
+}
+h1{
+font-family: 'Lobster', cursive;
+
+}
+p{
+    font-size: larger;
+    color: rgb(109, 109, 109);
+}
+.herosection div h1{
+    font-size:400%;
+}
+.bg-orange{
+    background: var(--bs-orange)
+}
+.text-orange{
+    color: var(--bs-orange);
+}
+.border-orange{
+    border: 1px solid;
+    border-color: #ff4800;
+}
+.appoinment input{
+    border: 1px solid #ff4800;
+    
+}
+.appoinment select{
+    border: 1px solid #ff4800;
+
+}
+.appinment button{
+    padding: 10px 20px;
+}
+.testmonial img{
+    border-radius:100% ;
+}
+.footerup{
+    padding:200% 0%;
+}
+.about img{
+    border-top-left-radius:50%;
+}
+.fa-weight-hanging{
+    font-size:100px ;
+}
